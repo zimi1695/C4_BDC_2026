@@ -1,0 +1,20 @@
+# 1. 忽略所有数据文件
+data/
+*.csv
+*.bin
+*.pkl
+*.pth
+qlib_bin/
+
+# 2. 忽略 Python 缓存和临时文件
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# 3. 忽略 IDE 设置
+.vscode/
+.idea/
+
+# 4. 允许上传的文件 
+# !data/result.csv
